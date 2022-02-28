@@ -1,0 +1,1295 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A cœlestiall planisphere by J. Seller.</title>
+            <author>Seller, John, fl. 1658-1698.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1678</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 27 KB of XML-encoded text transcribed from 4 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A92887</idno>
+            <idno type="STC">Wing S2467A</idno>
+            <idno type="STC">ESTC R43735</idno>
+            <idno type="EEBO-CITATION">42475167</idno>
+            <idno type="OCLC">ocm 42475167</idno>
+            <idno type="VID">151323</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A92887)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 151323)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2255:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A cœlestiall planisphere by J. Seller.</title>
+                  <author>Seller, John, fl. 1658-1698.</author>
+               </titleStmt>
+               <extent>[4] (folded) leaves of plates : ill.  </extent>
+               <publicationStmt>
+                  <publisher>Printed &amp; sold by John Seller,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>[1678?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Leaf [4] has title: Zodiacus stellatus cujus limitibus planetarum omnium visibiles viæ comprehenduntur.</note>
+                  <note>Reproduction of original in: William Andrews Clark Memorial Library, University of California, Los Angeles.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Planispheres --  Early works to 1800.</term>
+               <term>Astronomy --  Charts, diagrams, etc. --  Early works to 1800.</term>
+               <term>Astrology --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-07</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2011-07</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb facs="tcp:151323:1" rendition="simple:additions"/>
+            <div type="part">
+               <head>THE USE OF THE <hi>PLANISPHERE.</hi>
+               </head>
+               <p>IN this <hi>Planiſphere</hi> the Center re<g ref="char:EOLhyphen"/>preſents the <hi>North Pole</hi> of the World, about which are theſe four <hi>Concentrick Circles.</hi>
+               </p>
+               <p n="1">1. The <hi>Artick Circle</hi> being a leſſer Circle diſtant from the Pole 23 deg. 30 min.</p>
+               <p n="2">2. The <hi>Tropick</hi> of <hi>Cancer</hi> diſtant from the <hi>North Pole</hi> 66 degrees 30 minutes, and from the <hi>Equator</hi> 23 degrees 30 minutes.</p>
+               <p n="3">3. The <hi>Equator,</hi> which is diſtant from the Pole 90 degrees, numbred 10, 20, 30, <hi>&amp;c.</hi> to 360.</p>
+               <p n="4">4. The <hi>Tropick</hi> of <hi>Capricorn,</hi> diſtant from the Equator Southward 23 de<g ref="char:EOLhyphen"/>grees 30 minutes.</p>
+               <p>The <hi>Ecliptick</hi> makes an Angle of 23 degrees 30 minutes, with the E<g ref="char:EOLhyphen"/>quator at the two oppoſite Points ♈ and ♎, and is divided into 12 Signs, marked ♈, ♉, ♊, <hi>&amp;c.</hi>
+               </p>
+               <p>Any Right Line ſuppoſed to be drawn from the Pole or Center of the <hi>Planiſphere</hi> is a Meridian, but that which is called the <hi>Graduated Meri<g ref="char:EOLhyphen"/>dian</hi> is numbred from the Equator both ways, with 10, 20, 30, <hi>&amp;c.</hi>
+               </p>
+               <p>By the help of this <hi>Planiſphere,</hi> the following uſeful <hi>Problems</hi> may be re<g ref="char:EOLhyphen"/>ſolved.</p>
+               <p n="1">1. The Day of the Month being given to find the Sun's Place in the <hi>Ecliptick.</hi>
+               </p>
+               <p n="2">2. To find the Hour of the Night by any known Star, being upon the Meridian.</p>
+               <p n="3">3, To know what Month and Day any Star will South at Mid<g ref="char:EOLhyphen"/>night.</p>
+               <p n="4">4. To find the <hi>Declination</hi> of any known Star.</p>
+               <p n="5">5. To find the <hi>Right Aſcenſion</hi> of any known Star.</p>
+               <p n="6">6. To find the Time of the Moon's Southing any Day of her Age.</p>
+               <p n="7">7. To find the Time of the Sun's Riſing and Setting, any Day in the Year, in the Latitude of <hi>London.</hi>
+               </p>
+               <p>For the Solution of thoſe Seven Problems, you have Directions at the Corners of the <hi>Planiſphere.</hi>
+               </p>
+               <p>Prob. 8. <hi>Having the Sun's Place to find his Declination.</hi>
+               </p>
+               <p>Extend your Compaſſes from the Center of the <hi>Planiſphere,</hi> to the De<g ref="char:EOLhyphen"/>gree of the Ecliptick that the Sun is in; then keeping one Point in the Center, turn the other to the Gra<g ref="char:EOLhyphen"/>duated Meridian, and it will ſhew the Declination required.</p>
+               <p>Example. <hi>I deſire to know the Sun's Declination when he is in</hi> 0 <hi>deg.</hi> 0 <hi>min. of</hi> Taurus.</p>
+               <p>Extend the Compaſſes from the Center to 0 deg. 0 min. of ♉ on the Ecliptick Circle, then turning them about as before directed, the move<g ref="char:EOLhyphen"/>able Point falls on 11 deg. 30 min. which (becauſe it is numbred from the Equator towards the North Pole) is North Declination, which was re<g ref="char:EOLhyphen"/>quired.</p>
+               <p>Prob. 9. <hi>Having the Sun's Place given to find his Right Aſcenſion.</hi>
+               </p>
+               <p>Lay a Scale from the Center over that Point in the Ecliptick that the Sun is in, and obſerve where it cuts the Equator; the Degrees and Mi<g ref="char:EOLhyphen"/>nutes ſo found, is the Right Aſcenſion of the Sun at that time.</p>
+               <p>Example. <hi>The Sun's Right Aſcenſion when he is in</hi> 0 <hi>deg.</hi> 0 <hi>min. of</hi> ♉, <hi>is required.</hi>
+               </p>
+               <p>Lay your Scale from the Center of the <hi>Planiſphere</hi> over 0 deg. 0 min. of ♉ in the Ecliptick, and it will cut in the Equator 27 deg. 54 min. the Sun's Right Aſcenſion ſought.</p>
+               <p>Having thus found the Right Aſ<g ref="char:EOLhyphen"/>cenſion of the Sun, and alſo the Right Aſcenſion of any Star, by <hi>Prob.</hi> 5. you may find what time of the Day or Night the ſaid Star will be upon the Meridian (beſides the Method pro<g ref="char:EOLhyphen"/>poſed in <hi>Prob.</hi> 2.) Thus,</p>
+               <p>Subtract the Right Aſcenſion of the Sun from the Right Aſcenſion of the Star (borrowing 360 deg. if Sub<g ref="char:EOLhyphen"/>traction cannot be made) the Re<g ref="char:EOLhyphen"/>mainder reduce into Time (allowing for every 15 degrees one hour, and for every degree 4 minutes) it gives the hour and minute Afternoon that the Star will be upon the Meridian; and if it amount to more than 12 hours, ſubtract 12 hours from it, the Remainder is the hour and minute that the Star comes to the Meridian next Morning.</p>
+               <p>Example. <hi>It is required to know what time the</hi> Lyon's Heart <hi>will be upon the Meridian on the Day that the Sun's Place is found to be in</hi> 0 <hi>deg.</hi> 0 <hi>min. of vs.</hi>
+               </p>
+               <p>The Right Aſcenſion of the <hi>Lyons Heart,</hi> is found (by <hi>Prob.</hi> 5.) to be 147 degrees 48 minutes, from which ſubtract the Right Aſcenſion of the Sun (which is found by <hi>Prob.</hi> 9. to be) 270 degrees; the remainder 237 deg. 48 min. reduced to Time gives 15 hours 51 minutes Afternoon, from which abating 12 hours, the Re<g ref="char:EOLhyphen"/>mainder 3 hours 51 minutes is the hour of the <hi>Lyons Heart</hi> coming to the Meridian in the Morning.</p>
+               <p>
+                  <hi>Note,</hi> If you put a ſmall Bead upon the String that is fixed at the Center of the <hi>Planiſphere,</hi> the String and Bead ſo fitted will ſupply the Uſe of Scale and Compaſſes, the String ſer<g ref="char:EOLhyphen"/>ving inſtead of a Scale, and the Bead ſlipping up and down upon the String at pleaſure, gives any Extent from the Center upon the Graduated Me<g ref="char:EOLhyphen"/>ridian.</p>
+               <figure>
+                  <head>A COELESTIALL PLANISPHERE By J. Seller.</head>
+                  <p>The Uſe of this Coeleſtiall Planiſphere Iluſtrated for want of roome by the Examples only.</p>
+                  <p>Prob: 1. <hi>The day of the Month being given to find y<hi rend="sup">e</hi> Suns place.</hi>
+                  </p>
+                  <p>Example <hi>Let the day be the 5<hi rend="sup">th</hi>. day of May, on which day the Suns place is required, lay a thrid or Ruler from the Center, to y<hi rend="sup">e</hi> Circle of Months to y<hi rend="sup">e</hi> 5<hi rend="sup">th</hi>. of May. And it will ſhew you in the Circle of Signes that the Sun is 25<hi rend="sup">d</hi>. 20 in Taurus, &amp; on the fifth day of November, the Sun is in 24. deg: of Scorpio, And on the 5<hi rend="sup">th</hi>. of Ianuary y<hi rend="sup">u</hi>. will find the Sun to be in the 26. of Capricorn. And on the Twentith day of February you will find the Suns place to be in the 13<hi rend="sup">th</hi>. deg: of Piſses.</hi>
+                  </p>
+                  <p>Problem 2. <hi>To find the Hour of the Night by any Star upon the Meridian.</hi>
+                  </p>
+                  <p>Example <hi>on y<hi rend="sup">e</hi> 30. of Ianuary. I ſee y<hi rend="sup">e</hi> Bulls eye upon the South part of y<hi rend="sup">e</hi> Meridian. I requier to find y<hi rend="sup">e</hi> hour of the Night. Lay y<hi rend="sup">e</hi> thrid or edg of a Ruler from y<hi rend="sup">e</hi> Center upon y<hi rend="sup">e</hi> Buls eye. And note where it cutts y<hi rend="sup">e</hi> Hour Circle, from which point ſett one point of your Compaſses, and extend y<hi rend="sup">e</hi> other point to the Hour of 12. y<hi rend="sup">e</hi> ſame Extent. y<hi rend="sup">e</hi> ſame way will reach from y<hi rend="sup">e</hi> 30<hi rend="sup">th</hi>. of Ianuary to 50. min. paſt Six of the Clock.</hi>
+                  </p>
+                  <p>Problem 3. <hi>To know what time of the yeare y<hi rend="sup">e</hi> Buls eye will be upon the Meridian at 12 of the clock at night. Lay a Ruler over the diameter of y<hi rend="sup">e</hi> Planiſpher &amp; through y<hi rend="sup">e</hi> center of y<hi rend="sup">e</hi> Buls eye, then y<hi rend="sup">e</hi> opoſite part of y<hi rend="sup">e</hi> Ruler will cut y<hi rend="sup">e</hi> 16 day of Novemb: the night on which the Buls eye wil be upon the Meridian.</hi>
+                  </p>
+                  <p>Prob. 4. <hi>To find y<hi rend="sup">e</hi> Declination of any Star.</hi>
+                  </p>
+                  <p>Example <hi>Extend your Compaſses from the Center of the Planiſphere to the Buls eye, then turne the foot of your Com<g ref="char:EOLhyphen"/>paſses to the graduated Meridian, and there it will ſhew you the Declination from the Equinoctiall to be</hi> 15. <hi>deg: 48. min.</hi>
+                  </p>
+                  <p>Problem <hi>5<hi rend="sup">th</hi>. To find the Right Aſcention of any Star.</hi>
+                  </p>
+                  <p>Example <hi>of the Buls eye. Lay a thrid or edge of a Ruler from the center of the Planiſphere over the Bulls eye, and you will find that it cutts in the circle of Signes 64<hi rend="sup">d</hi>. 27′. counting it from Aries.</hi>
+                  </p>
+                  <p>Example <hi>of the Lyons hart, Lay a thrid or Ruler over the Center of the Planiſphere, &amp; over the Lyons hart, you will find that the thrid or Ruler will cutt in the circle of Sines in 27 deg: 48. of Leo. which being counted from the firſt Point of Aries is 247. deg: 48. minutes which is the Right Aſsention of the Lyons hart.</hi>
+                  </p>
+                  <p>Prob 6 <hi>To find y<hi rend="sup">e</hi> Moons So<g ref="char:EOLhyphen"/>uthing any day of her Age And y<hi rend="sup">e</hi> time of full Sea</hi>
+                  </p>
+                  <p>Example <hi>I Requi<g ref="char:EOLhyphen"/>er y<hi rend="sup">e</hi> time of y<hi rend="sup">e</hi> Moons Southing when ſhe is 6 dayes old. ſeek her Age amongſt y<hi rend="sup">e</hi> ſmall figures y<hi rend="sup">t</hi> are plaſt among the Hours, &amp; y<hi rend="sup">u</hi> will find y<hi rend="sup">e</hi> figure 6 ſtand at 4. a clock 53′. the time of the Moons Southing. To which if you a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> y<hi rend="sup">e</hi> time of Flowing, it will give y<hi rend="sup">e</hi> time of high water in any place, for Londo<g ref="char:cmbAbbrStroke">̄</g> add 3. which makes 7. of the clock and 53′. paſt y<hi rend="sup">e</hi> time of High water at London bridge.</hi>
+                  </p>
+                  <p>Prob. 7 <hi>To find the Riſing and Setting of the Sun every day in the yeare.</hi>
+                  </p>
+                  <p>Example <hi>I Require to know y<hi rend="sup">e</hi> Riſing and ſetting of the Sun on y<hi rend="sup">e</hi> 26 day of December. Therefore lay a thrid or the edg of a Ruler from the Center over the day of the Month, then in the outer Circle it will ſhew you that the Sun riſeth at 8 of the clock 9 minuts paſt And Setteth at foure of the Clock 9 minuts wanting</hi>
+                  </p>
+                  <figDesc>celestial planisphere</figDesc>
+               </figure>
+            </div>
+            <div type="part">
+               <pb facs="tcp:151323:2"/>
+               <head>
+                  <hi>The Uſe of the</hi> Plani<g ref="char:EOLhyphen"/>ſphere, <hi>upon the Plain of the</hi> Eclip<g ref="char:EOLhyphen"/>tick.</head>
+               <p>THESE two <hi>Plani<g ref="char:EOLhyphen"/>ſpheres</hi> upon the Plain of the <hi>Ecliptick,</hi> are one for the Northern <hi>Hemiſphere,</hi> the other for the <hi>Southern;</hi> but their Uſe is the ſame, their Centers are the Poles of the Ecliptick, and their Periphery is the Ecliptick Circle, and the Poles of the World are 23deg. 30m. from the Center or Pole of the Ecliptick. In the Northern <hi>Hemiſphere</hi> you have the <hi>Pole-Artick,</hi> or <hi>North Pole,</hi> and about it is Deſcribed the <hi>Artick Circle,</hi> the <hi>Tropick</hi> of <hi>Cancer,</hi> and one half of the <hi>Equator.</hi> In the Southern <hi>Hemiſphere,</hi> you have the <hi>South Pole,</hi> (and reſpecting it for a Center, you have) the <hi>Antar<g ref="char:EOLhyphen"/>tick Circle,</hi> the <hi>Tropick</hi> of <hi>Ca<g ref="char:EOLhyphen"/>pricorn,</hi> and the other half of the <hi>Equator.</hi> The chief Uſe is,</p>
+               <p n="1">1. To find the <hi>Longitude</hi> of any fixed <hi>Star.</hi>
+               </p>
+               <p>Lay a Scale from the Cen<g ref="char:EOLhyphen"/>ter, over the <hi>Star</hi> whoſe <hi>Lon<g ref="char:EOLhyphen"/>gitude</hi> is required, and the Sign and Degree cut by the Scale upon the <hi>Ecliptick,</hi> or outermoſt <hi>Circle,</hi> is the Place of the <hi>Star</hi> in <hi>Longitude.</hi>
+               </p>
+               <p>Example. <hi>I deſire the</hi> Lon<g ref="char:EOLhyphen"/>gitude <hi>of</hi> Capella, (<hi>which is a bright</hi> Star <hi>in the Conſtellation called</hi> Auriga.)</p>
+               <p>I lay a Scale as before directed, and I find it cuts the <hi>Ecliptick</hi> in 17deg. 30m. of <hi>Gemini;</hi> the Place of the <hi>Star</hi> required.</p>
+               <p n="2">2. To find the <hi>Latitude</hi> of any <hi>Star.</hi>
+               </p>
+               <p>Extend your Compaſſes from the Center of the <hi>Plani<g ref="char:EOLhyphen"/>ſphere,</hi> to the <hi>Star,</hi> then keep<g ref="char:EOLhyphen"/>ing one foot in the Center, turn the other to the Gradua<g ref="char:EOLhyphen"/>ted Line of <hi>Longitude;</hi> which (in both <hi>Hemiſpheres</hi>) is one of the Lines drawn from the Center to the Periphery and numbred towards the Center, with 10, 20, 30, <hi>&amp;c.</hi> and you have the <hi>Latitude</hi> of the <hi>Star</hi> required.</p>
+               <p>Example. <hi>I deſire to know the</hi> Latitude <hi>of the Star</hi> Capel<g ref="char:EOLhyphen"/>la, <hi>or the</hi> Goat, <hi>before mentioned.</hi>
+               </p>
+               <p>Extend the Compaſſes from the Center to the <hi>Star,</hi> then turn it to the Graduated Line of <hi>Longitude,</hi> it falls upon 22deg. 50min the <hi>Latitude</hi> of the <hi>Star</hi> required.</p>
+               <p>
+                  <hi>Note,</hi> Always if the <hi>Star</hi> whoſe <hi>Latitude</hi> is ſought, be found in the Northern <hi>Hemi<g ref="char:EOLhyphen"/>ſphere,</hi> the <hi>Latitude</hi> is North; (as in the <hi>Example</hi> above) and and if it is in the Southern <hi>Hemiſphere,</hi> the <hi>Latitude</hi> of the <hi>Star</hi> is South.</p>
+               <figure>
+                  <head>The Right Aſcenſions and Declinations of the Principal Fixed Starrs in both He<g ref="char:EOLhyphen"/>miſphears <hi>to y<hi rend="sup">e</hi> year 1678</hi>
+                  </head>
+                  <p>
+                     <table>
+                        <head>A Table of 20 of the Principal ſtarrs in the firſt Quadrant of Right Aſcenſion</head>
+                        <row>
+                           <cell role="label">
+                              <hi>Names of the ſtarrs</hi>
+                           </cell>
+                           <cell role="label">
+                              <hi>Aug</hi>
+                           </cell>
+                           <cell role="label" cols="2">
+                              <hi>R. A</hi>
+                           </cell>
+                           <cell role="label" cols="2">
+                              <hi>Declin:</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell role="label"> </cell>
+                           <cell role="label"> </cell>
+                           <cell role="label">0</cell>
+                           <cell role="label">′ ″</cell>
+                           <cell role="label">0</cell>
+                           <cell role="label">′ ″</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>The Phoenix's head</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>2</cell>
+                           <cell>28</cell>
+                           <cell>44</cell>
+                           <cell>4½<hi>S</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Caſſiopeia's breaſt</hi>
+                           </cell>
+                           <cell>3</cell>
+                           <cell>5</cell>
+                           <cell>36</cell>
+                           <cell>54</cell>
+                           <cell>47 <hi>N</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Southern in the whales Tayle</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>6</cell>
+                           <cell>49</cell>
+                           <cell>19</cell>
+                           <cell>47 <hi>S</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Pole Star</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>8</cell>
+                           <cell>3</cell>
+                           <cell>87</cell>
+                           <cell>35 <hi>N</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Andromedas Girdle</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>12</cell>
+                           <cell>53</cell>
+                           <cell>33</cell>
+                           <cell>56½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Laſt in Eridanus Achernar</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>21</cell>
+                           <cell>15</cell>
+                           <cell>58</cell>
+                           <cell>55 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Andromedas foot</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>26</cell>
+                           <cell>1</cell>
+                           <cell>40</cell>
+                           <cell>45½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Bright * of Aries</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>27</cell>
+                           <cell>17</cell>
+                           <cell>21</cell>
+                           <cell>55½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Whales Iaw</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>41</cell>
+                           <cell>25</cell>
+                           <cell>2</cell>
+                           <cell>49 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Meduſas head</hi>
+                           </cell>
+                           <cell>3</cell>
+                           <cell>41</cell>
+                           <cell>51</cell>
+                           <cell>39</cell>
+                           <cell>40 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Right ſide of Perſeus</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>45</cell>
+                           <cell>23</cell>
+                           <cell>48</cell>
+                           <cell>35 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Brighteſt of the Pleiades</hi>
+                           </cell>
+                           <cell>3</cell>
+                           <cell>52</cell>
+                           <cell>4½</cell>
+                           <cell>23</cell>
+                           <cell>4½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Bulls eye Aldebaran</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>64</cell>
+                           <cell>22½</cell>
+                           <cell>15</cell>
+                           <cell>49 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Capella</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>73</cell>
+                           <cell>11½</cell>
+                           <cell>45</cell>
+                           <cell>37½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Orions left foot Rigel</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>74</cell>
+                           <cell>48</cell>
+                           <cell>8</cell>
+                           <cell>36½<hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Bulls north horn</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>76</cell>
+                           <cell>28</cell>
+                           <cell>28</cell>
+                           <cell>21½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Orions left ſhoulder</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>76</cell>
+                           <cell>58</cell>
+                           <cell>6</cell>
+                           <cell>1 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Firſt in Orions Belt</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>78</cell>
+                           <cell>56</cell>
+                           <cell>0</cell>
+                           <cell>35 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>
+                                 <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                    <desc>•</desc>
+                                 </gap>urigas right ſhoulder</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>84</cell>
+                           <cell>1½</cell>
+                           <cell>44</cell>
+                           <cell>49 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Orions right ſhoulder</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>84</cell>
+                           <cell>27</cell>
+                           <cell>7</cell>
+                           <cell>18 <hi>n</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+                  <p>
+                     <table>
+                        <head>A Table of 20 of the Principal ſtarrs in the ſecond Quadrant of Right Aſcenſion.</head>
+                        <row>
+                           <cell role="label">
+                              <hi>Names of the ſtarrs</hi>
+                           </cell>
+                           <cell role="label">
+                              <hi>Aug</hi>
+                           </cell>
+                           <cell role="label" cols="2">
+                              <hi>R. A</hi>
+                           </cell>
+                           <cell role="label" cols="2">
+                              <hi>Dec:</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell role="label"> </cell>
+                           <cell role="label"> </cell>
+                           <cell role="label">0</cell>
+                           <cell role="label">′ ″</cell>
+                           <cell role="label">0</cell>
+                           <cell role="label">′ ″</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Canobus</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>94</cell>
+                           <cell>13</cell>
+                           <cell>52</cell>
+                           <cell>26 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Bright foot of Caſtor</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>94</cell>
+                           <cell>45</cell>
+                           <cell>16</cell>
+                           <cell>38 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Great Dogg</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>97</cell>
+                           <cell>46</cell>
+                           <cell>16</cell>
+                           <cell>15 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Head of Caſtor</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>108</cell>
+                           <cell>29</cell>
+                           <cell>32</cell>
+                           <cell>32½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Little Dogg</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>110</cell>
+                           <cell>38</cell>
+                           <cell>6</cell>
+                           <cell>2½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Head of Pollux</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>111</cell>
+                           <cell>24</cell>
+                           <cell>28</cell>
+                           <cell>45½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Bright * in y<hi rend="sup">e</hi> Shipps Waſte</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>119</cell>
+                           <cell>52½</cell>
+                           <cell>46</cell>
+                           <cell>19 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Bright * under the Keel</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>123</cell>
+                           <cell>52½</cell>
+                           <cell>58</cell>
+                           <cell>23½<hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>South in y<hi rend="sup">e</hi> ſection of y<hi rend="sup">e</hi> keel</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>137</cell>
+                           <cell>0</cell>
+                           <cell>57</cell>
+                           <cell>52 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Root of y<hi rend="sup">e</hi> Royall Oak</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>137</cell>
+                           <cell>5</cell>
+                           <cell>68</cell>
+                           <cell>19 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Hydras Heart</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>137</cell>
+                           <cell>58</cell>
+                           <cell>7</cell>
+                           <cell>16 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Lyons Heart</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>147</cell>
+                           <cell>48</cell>
+                           <cell>13</cell>
+                           <cell>31½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Lyons Neck</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>150</cell>
+                           <cell>31</cell>
+                           <cell>22</cell>
+                           <cell>27½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Southern Pointer</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>160</cell>
+                           <cell>23½</cell>
+                           <cell>58</cell>
+                           <cell>6½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Northern Pointer</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>160</cell>
+                           <cell>53</cell>
+                           <cell>63</cell>
+                           <cell>30½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Lyons Back</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>164</cell>
+                           <cell>12</cell>
+                           <cell>22</cell>
+                           <cell>18 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Lyons Tayle</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>173</cell>
+                           <cell>8</cell>
+                           <cell>16</cell>
+                           <cell>23 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Great Bears Thighs</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>174</cell>
+                           <cell>3</cell>
+                           <cell>55</cell>
+                           <cell>31½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Formoſt of the Croſiers</hi>
+                           </cell>
+                           <cell>3</cell>
+                           <cell>179</cell>
+                           <cell>39½</cell>
+                           <cell>56</cell>
+                           <cell>54 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Great Bears back</hi>
+                           </cell>
+                           <cell>3</cell>
+                           <cell>179</cell>
+                           <cell>52</cell>
+                           <cell>58</cell>
+                           <cell>49½<hi>n</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+                  <p>
+                     <table>
+                        <head>A Table of 20 of the Principal ſtarrs in the fourth Quadrant of Right Aſcenſion.</head>
+                        <row>
+                           <cell role="label">
+                              <hi>Names of the ſtarrs</hi>
+                           </cell>
+                           <cell role="label">
+                              <hi>Aug</hi>
+                           </cell>
+                           <cell role="label" cols="2">
+                              <hi>R. A</hi>
+                           </cell>
+                           <cell role="label" cols="2">
+                              <hi>Declin:</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell role="label"> </cell>
+                           <cell role="label"> </cell>
+                           <cell role="label">0</cell>
+                           <cell role="label">′ ″</cell>
+                           <cell role="label">0</cell>
+                           <cell role="label">′ ″</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>South end of <gap reason="illegible" resp="#PDCC" extent="1 word">
+                                    <desc>〈◊〉</desc>
+                                 </gap> Bow</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>270</cell>
+                           <cell>39½</cell>
+                           <cell>34</cell>
+                           <cell>26½<hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Bright * of the Harp</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>276</cell>
+                           <cell>29</cell>
+                           <cell>38</cell>
+                           <cell>30 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Sagittarys left ſhoulder</hi>
+                           </cell>
+                           <cell>3</cell>
+                           <cell>278</cell>
+                           <cell>47½</cell>
+                           <cell>26</cell>
+                           <cell>40 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Swans Back</hi>
+                           </cell>
+                           <cell>3</cell>
+                           <cell>289</cell>
+                           <cell>26</cell>
+                           <cell>27</cell>
+                           <cell>19 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>
+                                 <g ref="char:V">Ʋ</g>ultures heart</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>293</cell>
+                           <cell>45</cell>
+                           <cell>8</cell>
+                           <cell>4 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Peacoks Eye</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>299</cell>
+                           <cell>56</cell>
+                           <cell>5<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>
+                           </cell>
+                           <cell>38 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>North horn of Capricorn</hi>
+                           </cell>
+                           <cell>3</cell>
+                           <cell>300</cell>
+                           <cell>2</cell>
+                           <cell>13</cell>
+                           <cell>28 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Swans tayle</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>307</cell>
+                           <cell>36½</cell>
+                           <cell>44</cell>
+                           <cell>9 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Dolphins head</hi>
+                           </cell>
+                           <cell>3</cell>
+                           <cell>307</cell>
+                           <cell>57</cell>
+                           <cell>1<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>
+                           </cell>
+                           <cell>01 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Aquarys le<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                    <desc>•</desc>
+                                 </gap>t ſhoulder</hi>
+                           </cell>
+                           <cell>3</cell>
+                           <cell>318</cell>
+                           <cell>11½</cell>
+                           <cell>6</cell>
+                           <cell>55 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Pegaſus mouth</hi>
+                           </cell>
+                           <cell>3</cell>
+                           <cell>322</cell>
+                           <cell>7</cell>
+                           <cell>8</cell>
+                           <cell>25 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Following in Capricorns tayle</hi>
+                           </cell>
+                           <cell>3</cell>
+                           <cell>322</cell>
+                           <cell>19</cell>
+                           <cell>17</cell>
+                           <cell>31 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Cranes head</hi>
+                           </cell>
+                           <cell>3</cell>
+                           <cell>323</cell>
+                           <cell>33½</cell>
+                           <cell>38</cell>
+                           <cell>47 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Cranes wing</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>3<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>6</cell>
+                           <cell>51</cell>
+                           <cell>48</cell>
+                           <cell>27 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Cranes rump</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>335</cell>
+                           <cell>40</cell>
+                           <cell>48</cell>
+                           <cell>32½<hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Fo<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                                    <desc>••</desc>
+                                 </gap>alhaut</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>339</cell>
+                           <cell>54½</cell>
+                           <cell>32</cell>
+                           <cell>18½<hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Pegaſus Legg</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>342</cell>
+                           <cell>3</cell>
+                           <cell>26</cell>
+                           <cell>19 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Firſt in Pegaſus wing</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>342</cell>
+                           <cell>11</cell>
+                           <cell>13</cell>
+                           <cell>29 1/2<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Head of Andromeda</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>357</cell>
+                           <cell>58</cell>
+                           <cell>27</cell>
+                           <cell>29½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Laſt in Pegaſus wing</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>359</cell>
+                           <cell>12</cell>
+                           <cell>13</cell>
+                           <cell>24 <hi>n</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+                  <p>
+                     <table>
+                        <head>A Table of 20 of the Principal ſtarrs in the third Quadrant of Right Aſcenſion</head>
+                        <row>
+                           <cell role="label">
+                              <hi>Names of the ſtarrs</hi>
+                           </cell>
+                           <cell role="label">
+                              <hi>Aug</hi>
+                           </cell>
+                           <cell role="label" cols="2">
+                              <hi>R. A</hi>
+                           </cell>
+                           <cell role="label" cols="2">
+                              <hi>Dec:</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell role="label"> </cell>
+                           <cell role="label"> </cell>
+                           <cell role="label">0</cell>
+                           <cell role="label">′ ″</cell>
+                           <cell role="label">0</cell>
+                           <cell role="label">′ ″</cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Foot of the Croſiers</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>182</cell>
+                           <cell>20</cell>
+                           <cell>61</cell>
+                           <cell>14½<hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Head of the Croſiers</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>183</cell>
+                           <cell>27½</cell>
+                           <cell>55</cell>
+                           <cell>14½<hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Following of the Croſier</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>187</cell>
+                           <cell>24</cell>
+                           <cell>57</cell>
+                           <cell>50 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Firſt in the Great Bears tayle</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>189</cell>
+                           <cell>56½</cell>
+                           <cell>57</cell>
+                           <cell>45 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>
+                                 <g ref="char:V">Ʋ</g>rgins Spike</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>197</cell>
+                           <cell>5</cell>
+                           <cell>9</cell>
+                           <cell>26 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Second in Great Bears tayle</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>197</cell>
+                           <cell>40</cell>
+                           <cell>56</cell>
+                           <cell>39½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Laſt i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                    <desc>•</desc>
+                                 </gap> Great Bears tayle</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>203</cell>
+                           <cell>40</cell>
+                           <cell>50</cell>
+                           <cell>59 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Left knee of y<hi rend="sup">e</hi> Centaure</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>204</cell>
+                           <cell>23½</cell>
+                           <cell>58</cell>
+                           <cell>21½<hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Arctur<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                    <desc>•</desc>
+                                 </gap>s</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>210</cell>
+                           <cell>16</cell>
+                           <cell>20</cell>
+                           <cell>56½<hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Right foot of y<hi rend="sup">e</hi> Centaure</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>214</cell>
+                           <cell>
+                              <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>2</cell>
+                           <cell>59</cell>
+                           <cell>24½<hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>South Ballance</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>228</cell>
+                           <cell>27</cell>
+                           <cell>14</cell>
+                           <cell>38 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Little Bears ſhoulder</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>2<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>2</cell>
+                           <cell>42</cell>
+                           <cell>75</cell>
+                           <cell>37 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>North Ballance</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>224</cell>
+                           <cell>56</cell>
+                           <cell>8</cell>
+                           <cell>8½<hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Bright * of the Crown</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>230</cell>
+                           <cell>16</cell>
+                           <cell>27</cell>
+                           <cell>50 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Bright * in y<hi rend="sup">e</hi> Serpents neck</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>232</cell>
+                           <cell>2</cell>
+                           <cell>7</cell>
+                           <cell>31 <hi>n</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Northern in y<hi rend="sup">e</hi> ♏. forehead</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>236</cell>
+                           <cell>41</cell>
+                           <cell>18</cell>
+                           <cell>52 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Scorpions Heart</hi>
+                           </cell>
+                           <cell>1</cell>
+                           <cell>241</cell>
+                           <cell>23</cell>
+                           <cell>25</cell>
+                           <cell>37 <hi>
+                                 <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                    <desc>•</desc>
+                                 </gap>
+                              </hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Sting of the ♏. tayle</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>257</cell>
+                           <cell>52</cell>
+                           <cell>36</cell>
+                           <cell>47 <hi>s</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Fift joynt in ♏. tayle</hi>
+                           </cell>
+                           <cell>2</cell>
+                           <cell>258</cell>
+                           <cell>26</cell>
+                           <cell>4<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>
+                           </cell>
+                           <cell>4<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap> 
+                              <hi>
+                                 <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                    <desc>•</desc>
+                                 </gap>
+                              </hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <hi>Dragons eye</hi>
+                           </cell>
+                           <cell>3</cell>
+                           <cell>267</cell>
+                           <cell>17</cell>
+                           <cell>5<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>
+                           </cell>
+                           <cell>3<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap> 
+                              <hi>
+                                 <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                                    <desc>•</desc>
+                                 </gap>
+                              </hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+                  <p>
+                     <hi>printed &amp; ſold by John Seller</hi>
+                  </p>
+                  <figDesc>celestial planisphere</figDesc>
+               </figure>
+               <pb facs="tcp:151323:3"/>
+               <figure>
+                  <p>
+                     <hi>Schema Solis ad ingreſſum Mercurij S<hi rend="sup">tae</hi> Helenae, Anno 1677 Octob 28 9<hi rend="sup">•</hi>. 26′. 40″ A. M.</hi>
+                  </p>
+                  <p>
+                     <hi>Schema Solis ad exitum Mercurij. S<hi rend="sup">tae</hi>. Helenae. Anno. 1677. Octob 28. 2<hi rend="sup">h</hi>. 41′.00″. P.M.</hi>
+                  </p>
+                  <p>
+                     <hi>Schema exhiben<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Triangulum Sphericum<g ref="char:punc">▪</g> in calcul<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Aſcenſioris <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>e<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>e et Declinationis, e longitudine et latitudine dotis, reſolutim.</hi>
+                  </p>
+                  <p>
+                     <hi>Schema exhibens Triangula Sphaerica, in calculo loci Stellae incognitae, e di<g ref="char:EOLhyphen"/>ſtantijs a duabus cognitis, reſoluta—</hi>
+                  </p>
+                  <byline>Ia Clark ſculp:</byline>
+               </figure>
+               <pb facs="tcp:151323:4"/>
+               <figure>
+                  <head>ZODIACUS STELLATUS CUJUS LIMITIBUS PLANETARUM OMNIUM VISIBILES VIAE COMPREHENDUNTUR</head>
+                  <p>Autore Jo: Seller Sereniſimi Reg: Hydrographo</p>
+                  <figDesc>constellation chart</figDesc>
+               </figure>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
